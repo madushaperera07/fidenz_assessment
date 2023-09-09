@@ -1,0 +1,13 @@
+
+
+function testElseIf(val){
+    if(val > 20){
+        return "Greater than 20"
+    }else if(val < 5){
+        return "Smaller than 5"
+    }else{
+        return "Between 5 and 20"
+    }
+}
+
+console.log(testElseIf(7))
